@@ -1,0 +1,79 @@
+body {
+    background-color: #76a08c;
+}
+
+form {
+    text-align: left;
+    margin: 3% 0 3% 20%;
+    padding: 2.5%;
+    border-radius: 5px;
+}
+
+input[type=text], input[type=password] {
+    border: none;
+    border-bottom: 1px solid #262626;
+}
+input[type=text]:hover, input[type=password]:hover {
+    border: none;
+    border-bottom: 1px solid #b9b74a;
+}
+button {
+    background-color: #262626;
+    padding: 14px 20px;
+    margin-top: 10%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-family: 'Candal', sans-serif;
+    color: #b4b7aa;
+}
+
+button:hover, a:hover {
+    opacity: 0.8;
+}
+
+label{
+    color: #b9b74a;
+}
+
+a{
+    color: red;
+    text-decoration: underline;
+    font-family: 'Candal', sans-serif;
+    font-size: 0.7rem;
+}
+
+.full-width {
+    width: 100%;
+    padding: 8px 8px;
+    display: inline-block;
+}
+
+.form-container {
+    text-align: center;
+    margin: 1% 30% 0 30%;
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 40%;
+}
+
+.form-table{
+    margin: 0 5% 8% 5%;
+    padding: 5%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 8%;
+    font-family: 'Candal', sans-serif;
+    font-size: 1.5rem;
+    color: #252628;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: solid #e3e6aa;
+    width: 10rem;
+}
+
